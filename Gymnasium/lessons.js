@@ -231,3 +231,10 @@ document.addEventListener("mousedown", function(event) {
 document.addEventListener("mousemove", function(event) {
     console.log("mouse move. x: " + event.clientX + ",y: " + event.clientY);
 });
+
+document.addEventListener("keydown", function(event) {
+    console.log("key down: " + String.fromCharCode(event.keyCode));
+});
+
+// Lesson 10
+// Advanced debugging
