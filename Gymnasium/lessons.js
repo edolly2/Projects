@@ -1,3 +1,5 @@
+// Lesson 1
+
 document.getElementById("btn").addEventListener("click", function(event) {
     console.log("Hey, this works!");
 });
@@ -24,6 +26,8 @@ var firstName = "Eric",
     age = 29;
 
 console.log(firstName, lastName, age);
+
+// Lesson 2
 
 var addition = 5 + 5;
 var subtraction = 6 - 5;
@@ -58,3 +62,16 @@ Math.sqrt(49);
 Math.round(3.657);
 Math.random();
 Math.random() * 100;
+
+// Lesson 3
+
+var userName = "username123456"
+
+if (userName == "username1234") {
+    console.log("Welcome to our site!");
+} else if (userName == "username123456") {
+    console.log("Nice guess. Welcome!");
+
+} else {
+    console.log("Sorry, try again!");
+}
