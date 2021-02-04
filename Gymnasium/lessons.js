@@ -203,3 +203,20 @@ fruits();
 
 // Lesson 8
 // Object methods
+var speak = {};
+
+speak.sayMe = function() {
+    console.log("Me");
+}
+
+speak.sayMe();
+
+var speech = {
+    name: "eric",
+    greeting: "hello",
+
+    saySpeech: function() {
+        console.log(this.name + ", " + this.greeting);
+    }
+};
+speech.saySpeech();
