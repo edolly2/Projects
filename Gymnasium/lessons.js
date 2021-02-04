@@ -75,3 +75,35 @@ if (userName == "username1234") {
 } else {
     console.log("Sorry, try again!");
 }
+
+// Lesson 4
+
+var quotes = 'Joe says "Hello!"';
+console.log(quotes);
+var quotesTwo = "Joe says \"Hello!\"";
+console.log(quotesTwo);
+
+// escape character = \, \n = newline, \\, \', \",
+
+var eric = "eric";
+var last = "dollinger";
+console.log(eric + " " + last);
+
+var language = "Java";
+language += "Script";
+console.log(language);
+
+var lang = "JavaScript";
+lang = lang.substring(4, 10);
+console.log(lang);
+
+var subString = "JavaScript"
+subString = subString.substring(4);
+console.log(subString);
+
+var characterLocation = "Eric Dollinger";
+console.log(characterLocation.charAt(0));
+
+var word = "Team";
+console.log(word.indexOf('I'));
+console.log(word.indexOf('a'));
