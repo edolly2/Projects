@@ -220,3 +220,14 @@ var speech = {
     }
 };
 speech.saySpeech();
+
+// Lesson 9
+// Events
+
+document.addEventListener("mousedown", function(event) {
+    console.log("mouse down. x: " + event.clientX + ",y: " + event.clientY);
+});
+
+document.addEventListener("mousemove", function(event) {
+    console.log("mouse move. x: " + event.clientX + ",y: " + event.clientY);
+});
