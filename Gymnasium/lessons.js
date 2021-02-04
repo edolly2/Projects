@@ -129,3 +129,38 @@ function randomInt(max) {
     return rand;
 }
 console.log(randomInt(100));
+
+// Lesson 6
+// Arrays
+
+var list = [];
+
+list[0] = "socks";
+list[1] = "pants";
+list[2] = "shirt";
+
+function listItems() {
+    console.log(list[0]);
+    console.log(list[1]);
+    console.log(list[2]);
+}
+listItems();
+
+// Better way
+var things = ["socks", "pants", "shirt"];
+
+function thingsList() {
+    for (var i = 0; i < things.length; i++) {
+        console.log(things[i]);
+    }
+}
+thingsList();
+
+// Manipulate arrays
+// Add to the end of array
+things.push("hat");
+things.push("glasses", "shoes");
+// Sort array ABC
+things.sort();
+// Remove end of array
+things.pop();
