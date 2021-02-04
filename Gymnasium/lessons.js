@@ -164,3 +164,42 @@ things.push("glasses", "shoes");
 things.sort();
 // Remove end of array
 things.pop();
+
+// Lesson 7
+// Objects
+
+var person = {};
+person.fName = "eric";
+person.lName = "dollinger";
+console.log(person.fName + " " + person.lName);
+
+var fruit = [{
+        name: "orange",
+        cost: "1.99",
+        id: 101,
+        picture: "orange.jpg",
+    },
+    {
+        name: "apple",
+        cost: "2.99",
+        id: 102,
+        picture: "apple.jpg",
+    },
+    {
+        name: "pear",
+        cost: "4.99",
+        id: 103,
+        picture: "pear.jpg",
+    }
+];
+
+function fruits() {
+    for (var i = 0; i < fruit.length; i++) {
+        console.log(fruit[i].name + " is $ " + fruit[i].cost);
+    }
+}
+
+fruits();
+
+// Lesson 8
+// Object methods
