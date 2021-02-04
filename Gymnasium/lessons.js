@@ -107,3 +107,24 @@ console.log(characterLocation.charAt(0));
 var word = "Team";
 console.log(word.indexOf('I'));
 console.log(word.indexOf('a'));
+
+// Lesson 5
+
+function sayHello() {
+    console.log("Hello.");
+}
+sayHello();
+
+function sayHi(name) {
+    console.log("hello " + name);
+}
+sayHello("eric");
+
+var rand = Math.random();
+
+function randomInt(max) {
+    var rand = Math.random() * max;
+    rand = Math.round(rand);
+    return rand;
+}
+console.log(randomInt(100));
