@@ -109,6 +109,7 @@ console.log(word.indexOf('I'));
 console.log(word.indexOf('a'));
 
 // Lesson 5
+// Functions
 
 function sayHello() {
     console.log("Hello.");
